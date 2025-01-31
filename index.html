@@ -257,7 +257,7 @@
           <input type="email" name="email" placeholder="Email Address" required />
           <input type="tel" name="phone" placeholder="Phone Number" required />
           <textarea name="message" placeholder="Message" required></textarea>
-          <button type="submit" class="submit-btn">Submit</button>
+          <button type="submit" class="submit-btn" onclick=submit() >Submit</button>
         </form>
       </div>
     </div>
@@ -291,6 +291,13 @@
       <p>&copy; 2024 Haven Realty Co. All rights reserved.</p>
     </div>
   </footer>
+
+  <script> 
+    function submit(){
+      
+      alert("Submitted Sucessfully!! Will Contact You Soon")
+    };
+  </script>
 
 </body>
 
